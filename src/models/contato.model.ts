@@ -5,6 +5,6 @@ export enum TipoContato {
 }
 
 export class Contato {
-  tipo: TipoContato | undefined;
-  valor: string | undefined;
+  tipoContato: TipoContato;
+  valor: string;
 }
